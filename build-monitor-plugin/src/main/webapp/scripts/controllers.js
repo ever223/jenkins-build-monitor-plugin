@@ -1,7 +1,7 @@
 'use strict';
 
 angular.
-    module('buildMonitor.controllers', [ 'buildMonitor.services', 'buildMonitor.cron', 'uiSlider', 'jenkins', 'buildMonitor.stats']).
+    module('buildMonitor.controllers', [ 'buildMonitor.services', 'buildMonitor.cron', 'uiSlider', 'rzModule', 'jenkins', 'buildMonitor.stats']).
 
     controller('JobViews', ['$scope', '$rootScope', '$window', 'proxy', 'every', 'connectivityStrategist',
         function ($scope, $rootScope, $window, proxy, every, connectivityStrategist) {

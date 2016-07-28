@@ -41,19 +41,20 @@
             <link rel="stylesheet" href="${resourcesURL}/styles/normalize.css"/>
             <link rel="stylesheet" href="${resourcesURL}/styles/bootstrap-combined.2.3.2.min.css"/>
             <link rel="stylesheet" href="${resourcesURL}/styles/angular-slider.css"/>
-
+            <link rel="stylesheet" href="${resourcesURL}/styles/rzslider.css"/>
             <link rel="stylesheet" href="${resourcesURL}/themes/industrial.css"/>
             <link rel="stylesheet" href="${rootURL}/build-monitor-plugin/style.css"/>
 
             <script src="${resURL}/scripts/yui/cookie/cookie-min.js"></script>
-
+            <script src="${resourcesURL}/vendor/jquery-2.1.3.min.js"></script>
+            <script>jQuery.noConflict();</script>
             <script src="${resourcesURL}/vendor/modernizr.custom.27682.js"></script>
             <script src="${resourcesURL}/vendor/angular-${angularVersion}.min.js"></script>
             <script src="${resourcesURL}/vendor/ng-lodash-3.10.1.min.js"></script>
             <script src="${resourcesURL}/vendor/ui-bootstrap-custom-tpls-0.4.0.js"></script>
             <script src="${resourcesURL}/vendor/angular-slider-0.1.6.js"></script>
             <script src="${resourcesURL}/vendor/angular-slugify-1.0.0.js"></script>
-
+            <script src="${resourcesURL}/vendor/rzslider.js"></script>
             <script>
                 window['ga-disable-UA-61694827-4'] = ${!it.collectAnonymousUsageStatistics()};
 
